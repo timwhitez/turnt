@@ -2,7 +2,9 @@
 
 TURNt (TURN tunneler) is a red team tool designed for one-off interactive command and control communications along-side an existing implant providing a long-term command and control connection. TURNt allows an operator to tunnel interactive command and control traffic such as hidden VNC and SOCKS traffick over legitimate meeting protocols used by web conferencing software such as Zoom or Microsoft Teams.
 
-<img width="400" height="147" alt="logo" src="https://github.com/user-attachments/assets/d4411383-38df-4cb5-ba31-b2e59366aa6c" />
+<p align="center">
+  <img width="400" height="147" alt="logo" src="https://github.com/user-attachments/assets/d4411383-38df-4cb5-ba31-b2e59366aa6c" />
+</p>
 
 # 📚 Table of Contents
 
