@@ -286,7 +286,7 @@ During our research we focused on the following web-conferencing providers:
 |       Provider       |     Status      | Notes |
 |:--------------------:|:--------------:|-------|
 | Microsoft&nbsp;Teams | ✅&nbsp;Supported | Credentials can be fetched using `turnt-credentials`. |
-| Zoom                 | 🧑‍🍳&nbsp;[Manual](docs/zoom.md)   | Fully documented but requires manual steps in Burp Suite to obtain the TURN credentials from the webclient. |
+| Zoom                 | 🔒&nbsp;[Patched](docs/zoom.md)   | Zoom has patched the technique we documented. Fully documented but requires manual steps in Burp Suite to obtain the TURN credentials from the webclient. |
 | Cisco&nbsp;WebEx     | 🔍&nbsp;Researching | We found a method to extract TURN credentials from WebEx; however, we were unable to get them working. Further investigation is needed, so this effort is deferred to a later date. |
 | Google&nbsp;Meet     | ❌&nbsp;Not&nbsp;Planned | Currently out of scope for this project. |
 | Slack&nbsp; | ❌&nbsp;Not&nbsp;Planned | Slack uses the Amazon Chime SDK (not to be confused with the deprecated Chime web app) to power features like Huddles. From our initial analysis, an attacker could provision their own Chime SDK application and relay traffic through Chime TURN servers. We believe this would closely resemble legitimate Slack traffic at the network level. At the moment, we are not planning on implementing support for this into the TURNt tooling, however, it would be a welcome contribution. |
