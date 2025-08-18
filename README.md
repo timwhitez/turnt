@@ -6,6 +6,8 @@ TURNt (TURN tunneler) is a red team tool designed for one-off interactive comman
   <img alt="logo" src="https://github.com/user-attachments/assets/d4411383-38df-4cb5-ba31-b2e59366aa6c" />
 </p>
 
+> 🔒 **Note:** The Zoom technique documented here has since been **patched**.
+
 # 📚 Table of Contents
 
 - [🧩 What problem does this solve?](#what-problem-does-this-solve)
