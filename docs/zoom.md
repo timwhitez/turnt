@@ -4,6 +4,8 @@
 
 This document details the process of extracting TURN credentials from the Zoom web client using interception tools such as Burp Suite, for use with the TURNt toolkit to establish command-and-control or SOCKS proxy channels. While currently a manual process, it is straightforward to execute and credentials are typically valid for several days.
 
+> 🔒 **Note:** The Zoom technique documented here has since been **patched**.
+
 > ⚠️ This process should be performed in a browser instrumented for interception — for example, the built-in Chromium browser shipped with Burp Suite — to ensure Zoom traffic is captured for analysis.
 
 ---
